@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>TAHU BAKSO SI JACK LO</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style_product.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="hero_area sub_pages">
+    <!-- header section strats -->
+    <header class="header_section" style="padding-left: 90px; padding-right: 90px;">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png"alt=""/><span>
+            
+            
+              TAHU BAKSO SI JACK LO
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html"> Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html"> FAQ </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="AboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+      <!-- end header section -->
+
+  </div>
+
+
+  <!-- fruits section -->
+
+  <section class="fruit_section layout_padding-top">
+    <div class="container">
+      <h2 class="custom_heading">Menu Tahu Bakso</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card card-tahu-walik" style="border-radius: 20px;">
+                <img src="images/tahuwalik.jpg" class="fluid" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Tahu Walik</h6>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Buy
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>Jumlah</h5>
+                          <li id="price1" name="price" value="10000">Rp. 10000</li>
+                          <input oninput="subTotal('price1','quantity1', 'sub1'); runningTotal()" id="quantity1" name="quantity" placeholder="0" size="3">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Buy</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn-menu-tahu-walik btn-menu btn btn-primary btn-sm" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Read More</button>
+              </div>
+            </div>
+            <p class="tahu-walik deskripsi">Harga <br/> Rp.10000 <br/>Deskripsi:
+              Tahu yang gurih dilipat dan diisi dengan campuran rempah-rempah khas, kemudian digoreng hingga keemasan. Tidak hanya lezat, tapi juga menggugah selera!
+              <br/>
+              Keistimewaan:
+              
+              <br/>- Paduan sempurna rasa gurih dan pedas yang memanjakan lidah Anda.
+              <br/>- Cocok untuk dinikmati sebagai camilan atau sebagai pendamping hidangan utama.
+              <br/>- Bahan-bahan segar dan berkualitas tinggi..</p>
+            <div class="col-md-4">
+              <div class="card card-tahu-bakso" style="border-radius: 20px;">
+                <img src="images/tahubakso.jpg" class="fluid" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Tahu Bakso</h6>
+                  <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      Buy
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container">
+                              <div class="row">
+                                <h5>Rasa</h5>
+                                <li id="price2" name="price" value="11000">Rp. 11000</li>
+                                  <ul class="list-group d-flex flex-row">
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                                      <label class="form-check-label" for="firstRadio">Original</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                                      <label class="form-check-label" for="secondRadio">Ayam Bawang</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                                      <label class="form-check-label" for="thirdRadio">Barbeque</label>
+                                    </li>
+                                  </ul>
+                                  <ul class="list-group d-flex flex-row">
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                                      <label class="form-check-label" for="firstRadio">Sapi Panggang</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                                      <label class="form-check-label" for="secondRadio">Sapi Lada Hitam</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                                      <label class="form-check-label" for="thirdRadio">Ayam Lada Hitam</label>
+                                    </li>
+                                  </ul>
+                                  <ul class="list-group d-flex flex-row">
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                                      <label class="form-check-label" for="firstRadio">Ayam Bakar</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                                      <label class="form-check-label" for="secondRadio">Keju Manis</label>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <input oninput="subTotal('price2','quantity2', 'sub2'); runningTotal()" id="quantity2" name="quantity" placeholder="0" size="3"></li>
+                                <div class="row">
+                                  <li id="price3" name="price" value="13000">Rp. 13000</li>
+                                  <ul class="list-group d-flex flex-row">
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="firstRadio" checked>
+                                      <label class="form-check-label" for="firstRadio">Balado</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="secondRadio">
+                                      <label class="form-check-label" for="secondRadio">Sambal Balado</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="thirdRadio">
+                                      <label class="form-check-label" for="thirdRadio">Balado Pedas Level 3</label>
+                                    </li>
+                                  </ul>
+                                  <ul class="list-group d-flex flex-row">
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="firstRadio" checked>
+                                      <label class="form-check-label" for="firstRadio">Jagung Bakar</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="secondRadio">
+                                      <label class="form-check-label" for="secondRadio">Jagung Bakar Manis</label>
+                                    </li>
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="thirdRadio">
+                                      <label class="form-check-label" for="thirdRadio">Jagung Manis</label>
+                                    </li>
+                                  </ul>
+                                  <ul class="list-group d-flex flex-row">
+                                    <li class="list-group-item col-md-4" style="border: none;">
+                                      <input class="form-check-input me-1" type="radio" name="listGroupRadio1" value="" id="firstRadio" checked>
+                                      <label class="form-check-label" for="firstRadio">Sambal Bawang</label>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>  
+                              <p>Jumlah</p>
+                              <input oninput="subTotal('price3','quantity3', 'sub3'); runningTotal()" id="quantity3" name="quantity" placeholder="0" size="3"></li>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-success">Buy</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn-menu-tahu-bakso btn btn-menu btn btn-primary btn-sm" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Read More</button>
+                  </div>
+              </div>
+              <p class="tahu-bakso deskripsi">Harga <br/>Rp. 11000 - Rp. 13000 <br/>Deskripsi:
+                Paduan harmonis antara tahu yang lembut dan gurih dengan bakso kenyal yang disiram dengan kuah kaldu gurih yang kaya rasa. Rasakan sensasi tiada tara dalam setiap gigitannya!
+                
+                <br/>Keistimewaan:
+                
+                <br/>- Kuah kaldu yang kaya rasa, diperkaya dengan rempah-rempah pilihan.
+                <br/>- Tersedia dalam porsi yang mengenyangkan, cocok untuk santap siang atau malam.
+                <br/>- Dapat disesuaikan tingkat kepedasannya sesuai selera Anda.</p>
+              <div class="col-md-4">
+                <div class="card card-kentang" style="border-radius: 20px;">
+                  <img src="images/kentang.jpg" class="fluid" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Kentang Goreng</h6>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      Buy
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Jumlah</h5>
+                            <li id="price4" name="price" value="12000">Rp. 12000</li>
+                            <li><input oninput="subTotal('price4','quantity4', 'sub4'); runningTotal()" id="quantity4" name="quantity" placeholder="0" size="3"></li>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn-menu-kentang btn btn-menu btn-primary btn-sm" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Read More</button>
+                </div>
+              </div>
+              <p class="kentang deskripsi">Harga <br>Rp. 12000 <br>Deskripsi:
+                Kentang goreng kami adalah yang terbaik dalam kota! Potongan kentang yang digoreng garing di luar dan lembut di dalam, disajikan dengan berbagai pilihan saus dan bumbu untuk memuaskan selera Anda.
+                
+                <br>Keistimewaan:
+  
+                <br>- Kentang segar yang dipotong dengan sempurna dan digoreng hingga keemasan.
+                <br>- Pilihan saus dan bumbu yang beragam, mulai dari saus BBQ hingga saus keju dan banyak lagi!
+                <br>- Cocok dinikmati sebagai camilan di tengah hari atau sebagai pendamping hidangan utama.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card card-bakso" style="border-radius: 20px;">
+            <img src="images/baksogoreng.jpg" class="fluid" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Bakso Goreng</h6>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                Buy
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Jumlah</h5>
+                      <li id="price5" name="price" value="10000">Rp. 10000</li>
+                      <li><input oninput="subTotal('price5','quantity5', 'sub5'); runningTotal()" id="quantity5" name="quantity" placeholder="0" size="3"></li>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-menu-bakso btn btn-menu btn btn-primary btn-sm" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Read More</button>
+          </div>
+        </div>
+        <p class="bakso deskripsi">Harga <br> Rp.10000 <br>Deskripsi:Bakso goreng kami adalah cita rasa yang tak terlupakan! Bakso lembut yang diisi dengan bumbu khas, dilapisi dengan tepung crispy, dan digoreng hingga kecokelatan. Setiap gigitan akan memanjakan lidah Anda!
+        <br>Keistimewaan:
+
+        <br>- Tekstur renyah di luar, lembut di dalam, menciptakan pengalaman makan yang unik.
+        <br>- Disajikan dengan pilihan saus dan sambal yang menggugah selera.
+        <br>- Cocok sebagai camilan atau hidangan pendamping yang sempurna.
+        </p>
+        <div class="col-md-4">
+          <div class="card card-nugget" style="border-radius: 20px;">
+            <img src="images/nugget.jpg" class="fluid" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Nugget</h6>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                Buy
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Jumlah</h5>
+                      <li id="price6" name="price" value="8000">Rp. 8000</li>
+                      <li><input oninput="subTotal('price6','quantity6', 'sub6'); runningTotal()" id="quantity6" name="quantity" placeholder="0" size="3"></li>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-menu-nugget btn btn-menu btn-primary btn-sm" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Read More</button>
+          </div>
+        </div>
+        <p class="nugget deskripsi">Harga <br> Rp. 8000 <br>Deskripsi:
+          Siapa yang bisa menolak kelezatan nugget kami yang renyah di luar dan lembut di dalam? Terbuat dari daging ayam pilihan yang dipadu dengan bumbu rahasia kami, setiap gigitan akan memberikan sensasi yang memuaskan!
+          
+          <br> Keistimewaan:
+          
+          <br>- Terbuat dari daging ayam segar berkualitas tinggi, tanpa pengawet atau bahan tambahan berbahaya.
+          <br>- Disajikan dengan pilihan saus dan sajian tambahan untuk melengkapi pengalaman makan Anda.
+          <br>- Cocok untuk camilan di tengah hari, hidangan pembuka, atau sebagai hidangan utama.</p>
+        <div class="col-md-4">
+          <div class="card card-otak" style="border-radius: 20px;">
+            <img src="images/otakotak.jpg" class="fluid" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Otak-Otak Ayam</h6>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                Buy
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Jumlah</h5>
+                      <li id="price7" name="price" value="10000">Rp. 10.000</li>
+                      <li><input oninput="subTotal('price7','quantity7', 'sub7'); runningTotal()" id="quantity7" name="quantity" placeholder="0" size="3"></li>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-menu-otak btn btn-menu btn-primary btn-sm" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Read More</button>
+          </div>
+        </div>
+        <p class="otak deskripsi">Harga <br> Rp. 10000 <br> Deskripsi:
+          Mari rasakan sentuhan eksotis dari hidangan favorit kami, Otak-Otak Ayam! Terbuat dari daging ayam pilihan yang dicampur dengan rempah-rempah khas, dibungkus dalam daun pisang, dan dipanggang sempurna untuk memberikan cita rasa yang tak terlupakan.
+          
+          <br> Keistimewaan:
+          
+          <br>- Terbuat dari daging ayam segar berkualitas tinggi, memberikan rasa lezat dan tekstur yang kenyal.
+          <br>- Aroma rempah-rempah yang harum dan khas, menciptakan pengalaman makan yang unik.
+          <br>- Disajikan dalam penyajian yang ramah lingkungan dengan daun pisang sebagai bungkusnya.</p>
+      </div>
+      <div class="total">
+        <h3>Total Belanja</h3>
+        <h5 id="runtotal"></h5>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- end fruits section -->
+
+
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            Home
+          </h5>
+          <ul>
+            <li>
+              What this Tahu Bakso?
+            </li>
+            <li>
+              Inovasi dan kualitas
+            </li>
+            <li>
+              Menu
+            </li>
+            <li>
+             Produk Best Seller
+            </li>
+            <li>
+              Katalog Menu Best Seller
+            </li>
+            <li>
+              Very Tasty Tahu Bakso
+            </li>
+            <li>
+              Testimoni
+            </li>
+            <li>
+              Social Media
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            Product
+          </h5>
+          <ul>
+            <li>
+              Tahu Walik
+            </li>
+            <li>
+              Tahu Bakso
+            </li>
+            <li>
+              Kentang Goreng
+            </li>
+            <li>
+              Bakso Goreng
+            </li>
+            <li>
+              Nugget 
+            </li>
+            <li>
+              Otak-Otak Ayam
+            </li>
+            <li>
+              Total Belanja
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            FAQ
+          </h5>
+          <ul>
+        
+            <li>
+              FAQ Populer
+            </li>
+            <li>
+              FAQ Menu
+            </li>
+            <li>
+              FAQ Pelanggan
+            </li>
+            <li>
+              Kontak FAQ
+            </li>
+            <li>
+                Social Media
+            </li>
+            
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            AboutUs
+          </h5>
+          <ul>
+        
+            <li>
+              Gambar
+            </li>
+            <li>
+              Tentang
+            </li>
+            <li>
+              Menu
+            </li>
+            <li>
+              Motivasi
+            </li>
+            <li>
+                Social Media
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="social_container">
+            <h5>
+              Contact Us
+            </h5>
+            <div class="social-box">
+              <a href="">
+                <img src="images/fb.png" alt="">
+              </a>
+
+              <a href="">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/instagram.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="subscribe_container">
+            <h5>
+              Subscribe Now
+            </h5>
+            <div class="form_container">
+              <form action="">
+                <input type="email">
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- footer section -->
+<section class="container-fluid footer_section">
+<p>
+  Tahu Bakso Si Jack Lo &copy; 2024 All Rights Reserved By
+  <a href="#">Kelompok 2</a>
+</p>
+</section>
+<!-- footer section -->
+
+
+  
+</body>
+
+</html>
